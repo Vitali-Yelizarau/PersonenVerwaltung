@@ -1,0 +1,42 @@
+@PersonenVerwaltung.WebApi_HostAddress = http://localhost:5177
+
+GET {{PersonenVerwaltung.WebApi_HostAddress}}/api/person
+Accept: application/json
+
+###
+
+GET {{PersonenVerwaltung.WebApi_HostAddress}}/api/person/1
+Accept: application/json
+
+###
+
+PUT {{PersonenVerwaltung.WebApi_HostAddress}}/api/person/1/name
+Content-Type: application/json
+{
+  "name": "Rittermann"
+}
+
+###
+
+POST {{PersonenVerwaltung.WebApi_HostAddress}}/api/person
+Content-Type: application/json
+
+{
+  "name": "Testmann",
+  "vorname": "Felix",
+  "geburtsdatum": "1979-05-27",
+  "anschriften": 
+  [
+    { 
+      "plz": "52222", 
+      "ort": "Stolberg", 
+      "strasse": "Teststrasse", 
+      "hausnummer": "27" 
+    }
+  ],
+  "telefonnummern": ["+4917612345678", "030123456789"]
+}
+
+###
+
+DELETE {{PersonenVerwaltung.WebApi_HostAddress}}/api/person/6
