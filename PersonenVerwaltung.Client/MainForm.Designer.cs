@@ -50,11 +50,11 @@
             dgvPersonen.AllowUserToDeleteRows = false;
             dgvPersonen.AllowUserToResizeColumns = false;
             dgvPersonen.AllowUserToResizeRows = false;
+            resources.ApplyResources(dgvPersonen, "dgvPersonen");
             dgvPersonen.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvPersonen.BackgroundColor = SystemColors.Control;
             dgvPersonen.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvPersonen.GridColor = SystemColors.InactiveCaptionText;
-            resources.ApplyResources(dgvPersonen, "dgvPersonen");
             dgvPersonen.Name = "dgvPersonen";
             dgvPersonen.ReadOnly = true;
             dgvPersonen.CellDoubleClick += dgvPersonen_CellDoubleClick;

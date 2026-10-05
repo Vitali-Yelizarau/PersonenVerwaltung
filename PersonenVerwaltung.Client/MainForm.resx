@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tstLaden.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="tstLaden.Location" type="System.Drawing.Point, System.Drawing">
     <value>774, 557</value>
@@ -143,6 +147,9 @@
   <data name="&gt;&gt;tstLaden.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="dgvPersonen.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
   <data name="dgvPersonen.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -167,6 +174,9 @@
   <data name="&gt;&gt;dgvPersonen.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="benutzerSuchenBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
   <data name="benutzerSuchenBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>774, 520</value>
   </data>
@@ -187,6 +197,9 @@
   </data>
   <data name="&gt;&gt;benutzerSuchenBox.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="neuPersonHinzuTst.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="neuPersonHinzuTst.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -214,6 +227,9 @@
   </data>
   <data name="&gt;&gt;neuPersonHinzuTst.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="entfPersonTst.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="entfPersonTst.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -250,6 +266,9 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1064, 608</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>700, 400</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Personen Verwaltung v1</value>
