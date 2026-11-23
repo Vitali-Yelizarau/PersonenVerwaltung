@@ -190,7 +190,7 @@
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "PersonDetailenForm";
-            Text = "Person Detailen";
+            Text = "Personendetails";
             Load += PersonDetailenForm_Load;
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();

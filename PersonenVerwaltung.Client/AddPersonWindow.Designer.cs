@@ -131,6 +131,8 @@
             // 
             // geburtsDTPicker
             // 
+            geburtsDTPicker.CustomFormat = "dd.MM.yyyy";
+            geburtsDTPicker.Format = DateTimePickerFormat.Custom;
             geburtsDTPicker.Location = new Point(230, 103);
             geburtsDTPicker.Name = "geburtsDTPicker";
             geburtsDTPicker.Size = new Size(221, 31);
